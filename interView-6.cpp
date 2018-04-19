@@ -56,7 +56,7 @@ int main()
 {
 	ListNode A(1);
 	A.AddList(2);
-	A.AddList(3);
+	A.AddList(3);//自己写的测试集
 	vector<int> OutPutList = printListFromTailToHead(&A);
 	for (auto tempNode = OutPutList.begin(); tempNode < OutPutList.end(); tempNode++) cout << (*tempNode) << endl;
 	return 0;
